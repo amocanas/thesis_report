@@ -1,0 +1,43 @@
+\BOOKMARK [1][-]{Doc-Start}{List of tables}{}% 1
+\BOOKMARK [1][-]{Doc-Start}{List of figures}{}% 2
+\BOOKMARK [1][-]{Doc-Start}{Listings}{}% 3
+\BOOKMARK [1][-]{section*.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1}{Description and Analysis of the Domain}{}% 5
+\BOOKMARK [2][-]{subsection.1.1}{The workflow of the system}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.2}{Similar products on the market}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.3}{The development environment}{section.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Back-end implementation: Java for Android}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.2}{ Model-View-Controller architecture}{subsection.1.3}% 10
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Front-end implementation in Android}{subsection.1.3}% 11
+\BOOKMARK [1][-]{section.2}{ Analysis of the application from architectural point of view}{}% 12
+\BOOKMARK [2][-]{subsection.2.1}{Representation of the system via Use Case Diagrams}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.2}{System Analysis using Activity Diagrams}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Process interaction analysis using Sequence Diagram}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.4}{The Database Model of the system}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.5}{Final stage of product development: Deployment Diagram}{section.2}% 17
+\BOOKMARK [1][-]{section.3}{Implementation and development methodologies}{}% 18
+\BOOKMARK [2][-]{subsection.3.1}{Realm Java}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.2}{Android Support Libraries}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Fragments in the Support Libraries}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Activities}{subsection.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.3}{Optical Character Recognition on Android \205 OCR}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Tesseract library}{subsection.3.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Easy OCR library}{subsection.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.4}{User\220s experience handling the product}{section.3}% 26
+\BOOKMARK [1][-]{section.4}{Economic Analysis}{}% 27
+\BOOKMARK [2][-]{subsection.4.1}{Project description}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.2}{Project time schedule}{section.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.2.1}{SWOT Analysis}{subsection.4.2}% 30
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Defining objectives}{subsection.4.2}% 31
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Time schedule establishment}{subsection.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.3}{Economic motivation}{section.4}% 33
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Tangible and intangible asset expenses}{subsection.4.3}% 34
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Salary expenses}{subsection.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.4}{Individual person salary}{section.4}% 36
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Indirect expenses}{subsection.4.4}% 37
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Wear and depreciation}{subsection.4.4}% 38
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Product cost}{subsection.4.4}% 39
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Economic indicators and results}{subsection.4.4}% 40
+\BOOKMARK [2][-]{subsection.4.5}{Economic conclusions}{section.4}% 41
+\BOOKMARK [1][-]{section*.8}{Conclusions}{}% 42
+\BOOKMARK [1][-]{section*.9}{References}{}% 43

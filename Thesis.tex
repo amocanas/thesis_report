@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper,titlepage]{article}
+\usepackage{License_style}
+\usepackage{pdfpages}
+%\usepackage{eso-pic}  
+\usepackage{float}% [H]
+\usepackage[figure,table]{totalcount}
+\usepackage{lastpage} % \pageref{LastPage}
+\usepackage{caption}
+\usepackage{listings}
+\lstdefinestyle{nonumbers}
+{numbers=none}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\includepdf[pages={1}]{title.pdf}
+%\includepdf[pages={1}]{signatures.pdf}
+%\includepdf[pages={1,2}]{notebook.pdf}
+\input{Aditional/Abstract_eng.tex}
+\newpage
+\input{Aditional/Abstract_rom.tex}
+\newpage
+
+\AddToShipoutPicture*{
+	\put(-4,0){\includegraphics{page1}}
+}
+\tableofcontents
+\AddToShipoutPicture*{
+	\put(-4,0){\includegraphics{page2}}
+}
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{10}
+\addcontentsline{toc}{section}{List of tables}
+\listoftables
+\newpage
+\addcontentsline{toc}{section}{List of figures}
+\listoffigures
+\newpage
+\addcontentsline{toc}{section}{Listings}
+\lstlistoflistings
+\cleardoublepage
+
+%INTRODUCERE
+\phantomsection
+\addcontentsline{toc}{section}{Introduction}
+\input{Aditional/Introduction.tex}
+\cleardoublepage
+
+% CAPITOLUL 1
+\input{Chapter1/Chapter1.tex}
+\cleardoublepage
+
+% CAPITOLUL 2
+\input{Chapter2/Chapter2.tex}
+\cleardoublepage
+
+% CAPITOLUL 3
+\input{Chapter3/Chapter3.tex}
+\cleardoublepage
+
+% CAPITOLUL 4
+\input{Chapter4/Chapter4.tex}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{section}{Conclusions}
+\input{Aditional/Conclusion.tex}
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{section}{References}
+\input{Aditional/References.tex}
+
+\end{document}

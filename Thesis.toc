@@ -1,0 +1,46 @@
+\contentsline {section}{List of tables}{10}{Doc-Start}
+\contentsline {section}{List of figures}{11}{Doc-Start}
+\contentsline {section}{Listings}{12}{Doc-Start}
+\contentsline {section}{Introduction}{13}{section*.1}
+\contentsline {section}{\numberline {1}Description and Analysis of the Domain}{15}{section.1}
+\contentsline {subsection}{\numberline {1.1}The workflow of the system}{15}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Similar products on the market}{16}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}The development environment}{19}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Back-end implementation: Java for Android}{20}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2} Model-View-Controller architecture}{21}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Front-end implementation in Android}{22}{subsubsection.1.3.3}
+\contentsline {section}{\numberline {2} Analysis of the application from architectural point of view}{23}{section.2}
+\contentsline {subsection}{\numberline {2.1}Representation of the system via Use Case Diagrams}{23}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}System Analysis using Activity Diagrams}{23}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Process interaction analysis using Sequence Diagram}{23}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}The Database Model of the system}{23}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Final stage of product development: Deployment Diagram}{23}{subsection.2.5}
+\contentsline {section}{\numberline {3}Implementation and development methodologies}{24}{section.3}
+\contentsline {paragraph}{System Requirments}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1}Realm Java}{24}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Android Support Libraries}{26}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Fragments in the Support Libraries}{26}{subsubsection.3.2.1}
+\contentsline {paragraph}{Adding a fragment to an activity}{27}{lstnumber.5.9}
+\contentsline {subsubsection}{\numberline {3.2.2}Activities}{28}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Optical Character Recognition on Android \IeC {\textendash } OCR}{30}{subsection.3.3}
+\contentsline {paragraph}{Introducing an Android OCR Library \IeC {\textendash } Text Recognition API}{30}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Tesseract library}{30}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Easy OCR library}{30}{subsubsection.3.3.2}
+\contentsline {subsection}{\numberline {3.4}User\IeC {\textquoteright }s experience handling the product}{30}{subsection.3.4}
+\contentsline {section}{\numberline {4}Economic Analysis}{31}{section.4}
+\contentsline {subsection}{\numberline {4.1}Project description}{31}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Project time schedule}{32}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}SWOT Analysis}{32}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Defining objectives}{32}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Time schedule establishment}{32}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Economic motivation}{32}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Tangible and intangible asset expenses}{32}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Salary expenses}{32}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Individual person salary}{32}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Indirect expenses}{32}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Wear and depreciation}{32}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Product cost}{32}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Economic indicators and results}{32}{subsubsection.4.4.4}
+\contentsline {subsection}{\numberline {4.5}Economic conclusions}{32}{subsection.4.5}
+\contentsline {section}{Conclusions}{33}{section*.8}
+\contentsline {section}{References}{34}{section*.9}
