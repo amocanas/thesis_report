@@ -29,18 +29,19 @@
 \contentsline {subsection}{\numberline {3.4}User\IeC {\textquoteright }s experience handling the product}{30}{subsection.3.4}
 \contentsline {section}{\numberline {4}Economic Analysis}{31}{section.4}
 \contentsline {subsection}{\numberline {4.1}Project description}{31}{subsection.4.1}
+\newpage 
 \contentsline {subsection}{\numberline {4.2}Project time schedule}{32}{subsection.4.2}
 \contentsline {subsubsection}{\numberline {4.2.1}SWOT Analysis}{32}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Defining objectives}{32}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Time schedule establishment}{32}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}Economic motivation}{32}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Tangible and intangible asset expenses}{32}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Salary expenses}{32}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Individual person salary}{32}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Indirect expenses}{32}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Wear and depreciation}{32}{subsubsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.3}Product cost}{32}{subsubsection.4.4.3}
-\contentsline {subsubsection}{\numberline {4.4.4}Economic indicators and results}{32}{subsubsection.4.4.4}
-\contentsline {subsection}{\numberline {4.5}Economic conclusions}{32}{subsection.4.5}
-\contentsline {section}{Conclusions}{33}{section*.8}
-\contentsline {section}{References}{34}{section*.9}
+\contentsline {subsubsection}{\numberline {4.2.2}Defining objectives}{33}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Time schedule establishment}{33}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Economic motivation}{34}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Tangible and intangible asset expenses}{35}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Salary expenses}{36}{subsubsection.4.3.2}
+\contentsline {subsection}{\numberline {4.4}Individual person salary}{37}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Indirect expenses}{37}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Wear and depreciation}{37}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Product cost}{37}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Economic indicators and results}{37}{subsubsection.4.4.4}
+\contentsline {subsection}{\numberline {4.5}Economic conclusions}{37}{subsection.4.5}
+\contentsline {section}{Conclusions}{38}{section*.14}
+\contentsline {section}{References}{39}{section*.15}
