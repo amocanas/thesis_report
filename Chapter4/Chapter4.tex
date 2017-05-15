@@ -86,12 +86,12 @@ Spendings and initial budget are the key factors which are met at the very begin
 	\begin{tabular}{|l|l|l|l|l|l|}
 		\hline
 		\textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit(MDL)} & \textbf{Quantity} & \textbf{Sum(MDL)} \\ \hline
-		HP Pavillion      & AMD processor          & Unit                   & 9000                       & 6              & 54000             \\ \hline
+		HP Pavillion      & AMD processor          & Unit                   & 9000                       & 1              & 9000             \\ \hline
 		Samsung Galaxy A5      & Android minimum API level 15         & Unit                   & 7800                       & 1              & 7800              \\ \hline
-		\multicolumn{5}{|r|}{Total}                                                                                       & 61800             \\ \hline
+		\multicolumn{5}{|r|}{Total}                                                                                       & 16800             \\ \hline
 	\end{tabular}}
 \end{table}
-The tangible assets were estimated to 6 HP Pavillion laptops, for each member in the team, for not holding work, and one Samsung Galaxy A5 mobile phone, for debugging the application.Bellow in the Table 4.3 are presented all intangible assets which mean all those that do not process a physical form.So, this table will represent all the software needed for building the application and costs for the licences.
+The tangible assets were estimated to a HP Pavillion laptop,and one Samsung Galaxy A5 mobile phone, for debugging the application.Bellow in the Table 4.3 are presented all intangible assets which mean all those that do not process a physical form.So, this table will represent all the software needed for building the application and costs for the licences.
 \begin{table}[H]
 	\centering
 	\caption{Intangible assets}
@@ -123,7 +123,7 @@ There are other additional expenses which should be taken in account as well.The
 \end{table}
 Summing up all the expenses from all three tables can be calculated the approximate total amount of expenses for Spending Tracker application.
 \begin{equation}
-T_{e} = 61800 + 2270 + 795 = 64865
+T_{e} = 16800 + 2270 + 795 = 19865
 \end{equation}
 \subsubsection{Salary expenses}
 In this chapter it's time to discuss the remuneration of each employee during the process of development.Let's assume the following salaries per day for each specialist:
@@ -162,6 +162,7 @@ FS  &= F_{re} \cdot T_{fs} \\
 \noindent
 where FS means salary expense, $F_{re}$ represent the salary expense fund and $T_{fs}$ is the social service tax which is approved each year.The medical assurance fund is computed bellow:
 \begin{equation}
+\label{eq:sf}
 \begin{split}
 MI  &= F_{re} \cdot T_{mi}\\ 
 	&= 32200 \cdot 0.045\\ 
@@ -171,13 +172,215 @@ MI  &= F_{re} \cdot T_{mi}\\
 where $T_{mi}$ is the mandatory medical insurance tax also approved each year by the law of medical insurance.
 So, the total expense fund is calculated as sum of all calculated indicators:
 \begin{equation}
-WEF = F_{re} + FS + MI = 
-32200 + 7406 + 1149 = 40775,
+\label{eq:sf}
+	\begin{split}
+	WEF  &=  F_{re} + FS + MI\\ 
+	&= 32200 + 7406 + 1149\\ 
+	&= 40775,
+	\end{split}
 \end{equation}
 where $WEF$ is the work expense fund,$FS$ is the social fund and $MI$ is the medical insurance fund.The final result shows the total work expense fund.
 \subsection{Individual person salary}
+Now,once the total expense fund is calculated, it's time to calculated the net salary of each individual should be determined.Having project manager's salary of 500 MDL per day and his total work days constituting  16 days.The gross salary for project manager is:
+\begin{equation}
+\label{eq:sf}
+	\begin{split}
+	GS  &=  500 \cdot 16\\ 
+	&= 8000,
+	\end{split}
+\end{equation}
+where GS is the gross salary computed in MDL.
+Knowing that social fund for 2017 represents 6\%,then the tax paid for that is equal to:
+\begin{equation}
+\label{eq:sf}
+	\begin{split}
+	SF  &=  8000 \cdot 0.06\\ 
+	&= 480,
+	\end{split}
+\end{equation}
+Medical insurance tax represents 4.5\% this year, so the result is:
+\begin{equation}
+\label{eq:sf}
+	\begin{split}
+	MIF  &=  8000 \cdot 0.045\\ 
+	&= 360,
+	\end{split}
+\end{equation}
+Now,can be calculated the amount of taxed salary, but before that the Personal Exemption is needed.According \url{https://salarii.md/modificari-taxe-si-scutiri-salarii-2017/} \cite{salarii} the personal exemption for 2017 year constitutes - 10 620 MDL, monthly personal exemption - 885 MDL but for 16 working days of project manager the personal exemption seems to be - 708 MDL.Then the taxed salary is calculated as follows:
+\begin{equation}
+\label{eq:sf}
+\begin{split}
+TS  &=  GS - SF - MIF - PE\\ 
+&= 8000 - 480 - 360 - 708\\
+&= 6452,
+\end{split}
+\end{equation}
+where $TS$ is taxed salary, $GS$ - gross salary,$SF$ - social fund,$PE$ - personal exemption.
+Finally,the total income tax should be calculated,which is 7\% for yearly income under 31140 MDL (2017) and 18\% for income over 31140 MDL (2017).If to calculate the total income tax for a month then 7\% is taken for montly income under 2595 MDL and 18\% for the total monthly income over 2595 MDL.For 16 working days for project manager, the income tax have to be: \\
+\begin{center}
+	31140 MDL - 240 working days in year\\
+	x MDL     - 16 working days\\
+\end{center}
+\begin{equation}
+x = 2076
+\end{equation}
+Taking into account that monthly project manager salary is greater than 2595 MDL then the Total Income tax for 16 working days of project manager is:
+\begin{equation}
+\begin{split}
+IT &= TS - ST \\
+&= 2076 \cdot 0.07 + (6452 - 2076) \cdot 0.18 \\
+& = 145.32 + 787.68 = 933,
+\end{split}
+\end{equation}
+where $IT$ is the income tax,$TS$ - the taxed salary and $ST$ - the salary tax.
+With all these information now it's possible to calculate what have to be the net income of project manager:
+\begin{equation}
+\begin{split}
+NS &= GS - IT - SF - MIF \\
+&= 8000 - 933 - 480 - 360 \\
+&= 6587,
+\end{split}
+\end{equation}
+where $NS$ is the net salary, $GS$ - gross salary, $IT$ - income tax,$SF$ - social fund, $MIF$ - medical insurance fund.
 \subsubsection{Indirect expenses}
+Other expenses which are of course included in the process of project development involves production consumption.In the Table 4.6 bellow are described the spendings like electricity,internet access, office water and public transport.
+\begin{table}[H]
+	\centering
+	\caption{Indirect expenses}
+	\label{my-label}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		\textbf{Material} & \textbf{Specification} & \textbf{Measurement unit} & \textbf{Price per unit(MDL)} & \textbf{Quantity} & \textbf{Sum(MDL)} \\ \hline
+		Internet          & Star Net               & Pack                      & 200                          & 1                 & 200               \\ \hline
+		Water             & Apa-Canal Chisinau     & m\textasciicircum 3       & 9.2                          & 20                & 184               \\ \hline
+		Electricity       & Union Fenosa           & KWh                       & 2.16                         & 500               & 1080              \\ \hline
+		\multicolumn{5}{|r|}{Total}                                                                                               & 1264              \\ \hline
+	\end{tabular}}
+\end{table}
 \subsubsection{Wear and depreciation}
+When speaking about economic analysis, it is vital to understand the influence of time over the product. Usually, it happens that a depreciation in value can appear, that's why it is a value that should be computed and take into account. As a tuple, with the depreciation, the wear will be calculated. Depression will be computed uniformly for the whole project duration, so that there are no accountancy issues. As a matter of fact, a business plan divided for 3 years should be compartmentalized into 3 uniform parts according to each year.
+
+
+Normally wear is computed regarding to the type of asset. The computer mentioned above as tangible asset  can be used for a period of 3 years. Licenses will last for a single year. Straight line depreciation will be applied. First step is to sum up tangible and intangible assets, while the salvage costs of each of the items at the end of their period of use, has to be subtracted:
+
+\begin{equation}
+\begin{split}
+TAV &= \sum_{} (AC - SV) \\
+&= (25200 - 5000) + (2880 - 1000) \\
+&= 22080,
+\end{split}
+\end{equation}
+
+\noindent
+where $TAV$ is the total assets value, $AC$ -- assets cost, $SV$ -- salvage value.
+%\newpage
+In order to get the yearly wear, divide total asset value by the period of use of assets, being 3 years.
+
+\begin{equation} \label{eq:wear}
+\begin{split}
+W_y &= TAV / T_{use} \\
+&= 22080/3\\
+&= 7360,
+\end{split}
+\end{equation}
+
+\noindent
+where $W_y$ is the wear per year, $TAV$ -- total assets value, $T_{use}$ -- period of use. Relation \eqref{eq:wear} included tangible assets which will last for 5 years and intangible assets which last only one year. The initial value of assets in MDL was
+
+\begin{equation}
+\begin{split}
+W &= W_y / D_y \cdot T_p\\
+&= 7360  / 365  \cdot 120 \\
+&= 2420,
+\end{split}
+\end{equation}
 \subsubsection{Product cost}
+At this point, it is time to compute the product cost which includes direct and indirect expenses, salary expenses and wear expenses as shown in Table \ref{table:product_cost}.
+
+\begin{table}[H]
+	\centering
+	\caption{Total Product Cost}
+	\begin{tabular}{| c | r | r |}
+		
+		\hline
+		\textbf{Expense type} & \multicolumn{1}{c |}{\textbf{Sum (MDL)}} & \multicolumn{1}{c |}{\textbf{Percentage (\%)}}\\
+		\hline
+		Direct expenses & 810 & 0.62 \\
+		\hline
+		Intangible expenses & 3600 & 2.78 \\
+		\hline
+		Salary expenses & 122464 & 94.7 \\
+		\hline
+		Asset wear expenses & 2420 & 1.87 \\
+		\hline
+		\textbf{Total product cost} & \textbf{129294} & \textbf{100}\\
+		\hline
+	\end{tabular}
+	\label{table:product_cost}
+\end{table}
+
+\newpage
 \subsubsection{Economic indicators and results}
+At the moment, all the expenses for the development of the project were computed. Now is time to consider how the application should be included on the market. As mentioned above, the target group which is meaningful for the given project represent the academic infrastructures, including teachers and students. So, as starting investors, should be considered universities' administrations. There is no optimal price established for the initial project, so a indicator of 25\% on top of the production cost will be used, in order to determine what the real cost the application should have.
+
+\begin{equation}
+\begin{split}
+GP &= C_{total} / N_{cs} + P_{p}\\
+&= 129294/100 + 0.25 \cdot 1292.94\\
+&= 1616,
+\end{split}
+\end{equation}
+
+\noindent
+where $GP$ is the gross price, $C_{total}$ -- total product cost, $N_{cs}$ -- number of copies sold, $P_{p}$ -- chosen profit percentage. This is not the price of the end product, since it is necessary to add sales tax (VAT), which represents $20\%$ and is added to the gross price. 
+
+\begin{equation}
+\begin{split}
+P_{sale} &= GP + TX_{sales}\\
+&= 1616 + 0.2 \cdot 1616 \\
+&= 1932,
+\end{split}
+\end{equation}
+
+\noindent
+where $P_{sale}$ is the sale prices including VAT, $GP$ -- gross price, $TX_{sales}$ -- sales tax. The net income is computed by multiplying gross price and the number of expected copies to be sold, which will be
+
+\begin{equation}
+\begin{split}
+I_{net} &= GP \cdot N_{cs}\\
+&= 1616  \cdot 100 \\
+&= 161600,
+\end{split}
+\end{equation}
+
+\noindent
+where $I_{net}$ is the net income, $GP$ -- gross price, $N_{cs}$ -- number of copies sold. Moreover it is necessary to compute the gross and net profit. The indicators are $GPr$ -- gross profit and $NPr$ -- net profit.
+
+\begin{equation}
+\begin{split}
+GPr &= I_{net} - C_{production}\\
+&= 161600 - 129294\\
+&= 32306\\
+NPr &= GPr - 12\% \\
+&= 32306 - 12\% \\
+&= 28429,
+\end{split}
+\end{equation}
+
+\noindent
+where $I_{net}$ is the net income, $C_{production}$ -- cost of production. The profitability indicators are $C_{profit}$ -- cost profitability, $S_{profit}$ -- sales profitability computed in MDL.
+
+\begin{equation}
+\begin{split}
+C_{profit} &= GPr / C_{production} \cdot 100\%\\
+&= 32306 / 129294 \cdot 100\% \\
+&= 24.9 \%\\
+S_{profit} &= GPr / I_{net} \cdot 100\% \\
+&= 28429 / 161600 \cdot 100\% \\
+&= 18.59 \%.
+\end{split}
+\end{equation}
 \subsection{Economic conclusions}
+After analysing the given project from economical point of view, several conclusions were made. First of all, making such a research gave the possibility to understand better which are the strengths  and the weaknesses of the system and where additional attention should be paid in order to avoid unforeseeable external factors that could create unexpected problems.Several other indexes were computed such as direct and indirect expenses, tangible and intangible resources, worker remuneration, etc. As an observation, the biggest expense would be the salaries paid to employees and future improvements for maintaining the application up to date. Now, the next step is to find suitable clients, that would use the application  and, as a result, would suggest different improvements for the good functioning of the system. Finding at least one university for implementation purpose would represent a big step into the future of the application, guaranteeing an economic profit and great perspectives for upcoming versions.
+\clearpage
