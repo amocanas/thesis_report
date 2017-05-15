@@ -150,10 +150,31 @@ Given the above information can be built the table of the expenses for human res
 		\multicolumn{3}{|r|}{Total}                                                       & 32200                     \\ \hline
 	\end{tabular}
 \end{table}
-The social services fund should not be forgotten such as from the total salary fund a part of money is retrieved.According \url{https://salarii.md/} where can be found all taxes for the current year, can be observed that the social fund constitutes 23\%, medical assurance - 4.5\% and the pension fund - 6\%.Bellow is computed the social service fund, according the relation (4.2):
+The social services fund should not be forgotten such as from the total salary fund a part of money is retrieved.According \url{https://salarii.md/} where can be found all taxes for the current year, can be observed that the social fund constitutes 23\%, medical assurance - 4.5\%.Bellow is computed the social service fund, according the relation (4.2):
 \begin{equation}
-	
+\label{eq:sf}
+\begin{split}
+FS  &= F_{re} \cdot T_{fs} \\
+	&= 32200 \cdot 0.23  \\	
+	&= 7406,
+\end{split}
 \end{equation}
+\noindent
+where FS means salary expense, $F_{re}$ represent the salary expense fund and $T_{fs}$ is the social service tax which is approved each year.The medical assurance fund is computed bellow:
+\begin{equation}
+\begin{split}
+MI  &= F_{re} \cdot T_{mi}\\ 
+	&= 32200 \cdot 0.045\\ 
+	&= 1149,
+\end{split}
+\end{equation}
+where $T_{mi}$ is the mandatory medical insurance tax also approved each year by the law of medical insurance.
+So, the total expense fund is calculated as sum of all calculated indicators:
+\begin{equation}
+WEF = F_{re} + FS + MI = 
+32200 + 7406 + 1149 = 40775,
+\end{equation}
+where $WEF$ is the work expense fund,$FS$ is the social fund and $MI$ is the medical insurance fund.The final result shows the total work expense fund.
 \subsection{Individual person salary}
 \subsubsection{Indirect expenses}
 \subsubsection{Wear and depreciation}
