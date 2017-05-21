@@ -2,6 +2,12 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Goodbudget application, \cite {Goodbudget}\relax }}{18}{figure.caption.3}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Mvelopes Application, \cite {Mvelopes}\relax }}{19}{figure.caption.4}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces MVC pattern integration with Android, \cite {MVC}\relax }}{21}{figure.caption.5}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Expense Detail Fragment layout\relax }}{27}{figure.caption.6}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Text Recognizer Example \cite {Text Recognition API}\relax }}{30}{figure.caption.7}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces SWOT Analysis\relax }}{32}{figure.caption.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Use case diagram for User\relax }}{24}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Use case diagram for Categories\relax }}{25}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Use case diagram for Registration\relax }}{26}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Activity diagram for Registration\relax }}{27}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Activity diagram for Scanning the Receipt\relax }}{28}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Activity diagram for Adding new Expense\relax }}{29}{figure.caption.11}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Expense Detail Fragment layout\relax }}{34}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Text Recognizer Example \cite {Text Recognition API}\relax }}{37}{figure.caption.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces SWOT Analysis\relax }}{39}{figure.caption.14}

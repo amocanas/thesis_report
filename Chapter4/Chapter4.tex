@@ -211,8 +211,8 @@ Now,can be calculated the amount of taxed salary, but before that the Personal E
 \label{eq:sf}
 \begin{split}
 TS  &=  GS - SF - MIF - PE\\ 
-&= 8000 - 480 - 360 - 708\\
-&= 6452,
+&= 8000 - 480 - 360 - 885\\
+&= 6275,
 \end{split}
 \end{equation}
 where $TS$ is taxed salary, $GS$ - gross salary,$SF$ - social fund,$PE$ - personal exemption.
@@ -228,8 +228,8 @@ Taking into account that monthly project manager salary is greater than 2595 MDL
 \begin{equation}
 \begin{split}
 IT &= TS - ST \\
-&= 2076 \cdot 0.07 + (6452 - 2076) \cdot 0.18 \\
-& = 145.32 + 787.68 = 933,
+&= 2076 \cdot 0.07 + (6275 - 2076) \cdot 0.18 \\
+& = 145.32 + 755.82 = 901,
 \end{split}
 \end{equation}
 where $IT$ is the income tax,$TS$ - the taxed salary and $ST$ - the salary tax.
@@ -237,8 +237,8 @@ With all these information now it's possible to calculate what have to be the ne
 \begin{equation}
 \begin{split}
 NS &= GS - IT - SF - MIF \\
-&= 8000 - 933 - 480 - 360 \\
-&= 6587,
+&= 8000 - 901 - 480 - 360 \\
+&= 6259,
 \end{split}
 \end{equation}
 where $NS$ is the net salary, $GS$ - gross salary, $IT$ - income tax,$SF$ - social fund, $MIF$ - medical insurance fund.
@@ -259,15 +259,13 @@ Other expenses which are of course included in the process of project developmen
 	\end{tabular}}
 \end{table}
 \subsubsection{Wear and depreciation}
-When speaking about economic analysis, it is vital to understand the influence of time over the product. Usually, it happens that a depreciation in value can appear, that's why it is a value that should be computed and take into account. As a tuple, with the depreciation, the wear will be calculated. Depression will be computed uniformly for the whole project duration, so that there are no accountancy issues. As a matter of fact, a business plan divided for 3 years should be compartmentalized into 3 uniform parts according to each year.
-
+When speaking about economic analysis, it is vital to understand the influence of time over the product. Usually, it happens that a depreciation in value can appear, that's why it is a value that should be calculated and taken into account. As a tuple, with the depreciation, the wear will be calculated. Depreciation will be computed uniformly for the whole project duration, so that there are no accountancy issues. As a matter of fact, a business plan divided for 3 years should be compartmentalized into 3 uniform parts according to each year.
 Normally wear is computed regarding to the type of asset. The computer mentioned above as tangible asset  can be used for a period of 3 years. Licenses will last for a single year. Straight line depreciation will be applied. First step is to sum up tangible and intangible assets, while the salvage costs of each of the items at the end of their period of use, has to be subtracted:
-
 \begin{equation}
 \begin{split}
 TAV &= \sum_{} (AC - SV) \\
-&= (25200 - 5000) + (2880 - 1000) \\
-&= 22080,
+&= (16800 - 5000) + (2270 - 1000) \\
+&= 13070,
 \end{split}
 \end{equation}
 
@@ -279,19 +277,19 @@ In order to get the yearly wear, divide total asset value by the period of use o
 \begin{equation} \label{eq:wear}
 \begin{split}
 W_y &= TAV / T_{use} \\
-&= 22080/3\\
-&= 7360,
+&= 13070/3\\
+&= 4360,
 \end{split}
 \end{equation}
 
 \noindent
-where $W_y$ is the wear per year, $TAV$ -- total assets value, $T_{use}$ -- period of use. Relation \eqref{eq:wear} included tangible assets which will last for 5 years and intangible assets which last only one year. The initial value of assets in MDL was
+where $W_y$ is the wear per year, $TAV$ -- total assets value, $T_{use}$ -- period of use. Relation \eqref{eq:wear} included tangible assets which will last for 3 years and intangible assets which last only one year. The initial value of assets in MDL was:
 
 \begin{equation}
 \begin{split}
 W &= W_y / D_y \cdot T_p\\
-&= 7360  / 365  \cdot 120 \\
-&= 2420,
+&= 4360  / 365  \cdot 120 \\
+&= 1433
 \end{split}
 \end{equation}
 \subsubsection{Product cost}
@@ -305,29 +303,30 @@ At this point, it is time to compute the product cost which includes direct and 
 		\hline
 		\textbf{Expense type} & \multicolumn{1}{c |}{\textbf{Sum (MDL)}} & \multicolumn{1}{c |}{\textbf{Percentage (\%)}}\\
 		\hline
-		Direct expenses & 810 & 0.62 \\
+		Direct expenses & 795 & 1.48 \\
 		\hline
-		Intangible expenses & 3600 & 2.78 \\
+		Tangible expenses & 16800 & 31.4 \\
 		\hline
-		Salary expenses & 122464 & 94.7 \\
+		Intangible expenses & 2270 & 4.24 \\
 		\hline
-		Asset wear expenses & 2420 & 1.87 \\
+		Salary expenses & 32200 & 60.19 \\
 		\hline
-		\textbf{Total product cost} & \textbf{129294} & \textbf{100}\\
+		Asset wear expenses & 1433 & 2.68 \\
+		\hline
+		\textbf{Total product cost} & \textbf{53498} & \textbf{100}\\
 		\hline
 	\end{tabular}
 	\label{table:product_cost}
 \end{table}
 
-\newpage
 \subsubsection{Economic indicators and results}
 At the moment, all the expenses for the development of the project were computed. Now is time to consider how the application should be included on the market. As mentioned above, the target group which is meaningful for the given project represent the academic infrastructures, including teachers and students. So, as starting investors, should be considered universities' administrations. There is no optimal price established for the initial project, so a indicator of 25\% on top of the production cost will be used, in order to determine what the real cost the application should have.
 
 \begin{equation}
 \begin{split}
 GP &= C_{total} / N_{cs} + P_{p}\\
-&= 129294/100 + 0.25 \cdot 1292.94\\
-&= 1616,
+&= 53498/100 + 0.25 \cdot 5349.8\\
+&= 6687,
 \end{split}
 \end{equation}
 
@@ -337,8 +336,8 @@ where $GP$ is the gross price, $C_{total}$ -- total product cost, $N_{cs}$ -- nu
 \begin{equation}
 \begin{split}
 P_{sale} &= GP + TX_{sales}\\
-&= 1616 + 0.2 \cdot 1616 \\
-&= 1932,
+&= 6687 + 0.2 \cdot 6687 \\
+&= 8024,
 \end{split}
 \end{equation}
 
@@ -348,8 +347,8 @@ where $P_{sale}$ is the sale prices including VAT, $GP$ -- gross price, $TX_{sal
 \begin{equation}
 \begin{split}
 I_{net} &= GP \cdot N_{cs}\\
-&= 1616  \cdot 100 \\
-&= 161600,
+&= 8024  \cdot 100 \\
+&= 802400,
 \end{split}
 \end{equation}
 
@@ -359,11 +358,11 @@ where $I_{net}$ is the net income, $GP$ -- gross price, $N_{cs}$ -- number of co
 \begin{equation}
 \begin{split}
 GPr &= I_{net} - C_{production}\\
-&= 161600 - 129294\\
-&= 32306\\
+&= 802400 - 53498\\
+&= 748902\\
 NPr &= GPr - 12\% \\
-&= 32306 - 12\% \\
-&= 28429,
+&= 91702 - 12\% \\
+&= 659034,
 \end{split}
 \end{equation}
 
@@ -373,13 +372,14 @@ where $I_{net}$ is the net income, $C_{production}$ -- cost of production. The p
 \begin{equation}
 \begin{split}
 C_{profit} &= GPr / C_{production} \cdot 100\%\\
-&= 32306 / 129294 \cdot 100\% \\
-&= 24.9 \%\\
+&= 659034 / 53498 \cdot 100\% \\
+&= 0.12 \%\\
 S_{profit} &= GPr / I_{net} \cdot 100\% \\
-&= 28429 / 161600 \cdot 100\% \\
-&= 18.59 \%.
+&= 659034 / 748902 \cdot 100\% \\
+&= 88 \%.
 \end{split}
 \end{equation}
 \subsection{Economic conclusions}
-After analysing the given project from economical point of view, several conclusions were made. First of all, making such a research gave the possibility to understand better which are the strengths  and the weaknesses of the system and where additional attention should be paid in order to avoid unforeseeable external factors that could create unexpected problems.Several other indexes were computed such as direct and indirect expenses, tangible and intangible resources, worker remuneration, etc. As an observation, the biggest expense would be the salaries paid to employees and future improvements for maintaining the application up to date. Now, the next step is to find suitable clients, that would use the application  and, as a result, would suggest different improvements for the good functioning of the system. Finding at least one university for implementation purpose would represent a big step into the future of the application, guaranteeing an economic profit and great perspectives for upcoming versions.
+Analysing the project from the economical point of view brings several conclusions.The economical analyse is one of the key points which should be done at the very beginning of the project, such as this kind of research gave the possibility to understand better the strengths and weaknesses of the system and where to pay attention more in order to avoid risky external factors that could create undesired problems.All the computations of direct and indirect expenses, tangible and intangible resources, workers salaries are extremely important, they must fit perfectly into the initial predisposed budget.The next step not less important is selling the product,the application should be maintained and improved significant in the near future, for gaining as many users as possible.
+
 \clearpage
